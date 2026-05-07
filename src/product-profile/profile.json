@@ -1,0 +1,19 @@
+{
+  "name": "blender-import-batch-export-flow",
+  "title": "取り込み・バッチ処理・出力フロー",
+  "domain": "BlenderAddon",
+  "kind": "blender-addon",
+  "host": null,
+  "field": "Blenderバッチ入出力",
+  "audience": "Blenderで複数素材を取り込み、変換、出力する制作者",
+  "workflow": "取り込み元、処理プリセット、出力先、失敗時アクションをバッチ単位で確認する。",
+  "requiredFields": [
+    "batchName",
+    "importPath",
+    "operation",
+    "exportPath"
+  ],
+  "warningField": "presetUnverified",
+  "warningMessage": "処理プリセットが実素材で未検証です。",
+  "qcdsTarget": "A-以上。closed alphaではS-を基準とする。"
+}
