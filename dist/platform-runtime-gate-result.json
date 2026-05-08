@@ -1,0 +1,9 @@
+{
+  "product": "blender-import-batch-export-flow",
+  "platformType": "blender-addon",
+  "pass": true,
+  "method": "runtime-gate",
+  "manualTest": "not-run-by-codex",
+  "addon": "src/blender/__init__.py",
+  "hostExecution": "Blender executable not available in this environment; add-on file structure verified."
+}
