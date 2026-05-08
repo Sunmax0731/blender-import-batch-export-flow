@@ -1,0 +1,11 @@
+{
+  "product": "blender-import-batch-export-flow",
+  "title": "取り込み・バッチ処理・出力フロー",
+  "domain": "BlenderAddon",
+  "ideaNo": 3,
+  "platformType": "blender-addon",
+  "expectedPublicTarget": "GitHub Release / BOOTH",
+  "browser": null,
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
